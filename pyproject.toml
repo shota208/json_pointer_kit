@@ -1,0 +1,14 @@
+[project]
+name = "json-pointer-kit"
+version = "0.1.0"
+description = "Read and modify Python objects using JSON Pointer paths from RFC 6901."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
